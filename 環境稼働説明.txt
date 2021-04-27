@@ -1,0 +1,11 @@
+仮想起動
+
+>python3 -m venv myvenv
+
+>myvenv\Scripts\activate
+
+webサーバー起動
+>python manage.py runserver
+
+webサーバーが起動していることをブラウザにて確認
+URL:http://127.0.0.1:8000/
